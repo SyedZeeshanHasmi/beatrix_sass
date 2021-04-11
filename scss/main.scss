@@ -1,0 +1,55 @@
+// Main CSS file for the pgae
+
+// Font Imports
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap");
+
+// Valirables Defined
+// Colors
+$primary-color: #625772;
+$secondary-color: #f38181;
+$acceny-color: #a9eee6;
+$extra-color: #fefaec;
+// Fonts
+$regular-font: Nunito;
+
+// Main SCSS file
+* {
+  margin: 0;
+  padding: 0;
+  font-family: $regular-font;
+}
+html {
+  width: 100%;
+
+  .navbar{
+    width: 90%;
+    margin: 1% auto;
+    .navbar-nav{
+      margin-left: auto;
+      width: 450px;
+      .nav-items{
+        .nav-link{
+          font-size: 16px;
+        }
+      }
+    }
+    #contact{
+      display: inline-block !important;
+      margin-left: 50px;
+      width: 150px;
+      height: 50px;
+      border-radius: 30px;
+      background-color: rgba(243, 129, 129, 0.25);
+      text-align: center;
+      color: #f38181;
+      text-decoration: none;
+      line-height: 50px;
+      transition-duration: .7s;
+      &:hover{
+        transform: scale(1.05);
+        transition-duration: .7s;
+        transition-timing-function: ease-in;
+     }
+    }
+  }
+}

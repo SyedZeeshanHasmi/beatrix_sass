@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Nunito;
+}
+
+html {
+  width: 100%;
+}
+html .navbar {
+  width: 90%;
+  margin: 1% auto;
+}
+html .navbar .navbar-nav {
+  margin-left: auto;
+  width: 450px;
+}
+html .navbar .navbar-nav .nav-items .nav-link {
+  font-size: 16px;
+}
+html .navbar #contact {
+  display: inline-block !important;
+  margin-left: 50px;
+  width: 150px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: rgba(243, 129, 129, 0.25);
+  text-align: center;
+  color: #f38181;
+  text-decoration: none;
+  line-height: 50px;
+  transition-duration: 0.7s;
+}
+html .navbar #contact:hover {
+  transform: scale(1.05);
+  transition-duration: 0.7s;
+  transition-timing-function: ease-in;
+}
+
+/*# sourceMappingURL=main.css.map */
