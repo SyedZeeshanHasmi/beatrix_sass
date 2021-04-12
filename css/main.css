@@ -37,5 +37,123 @@ html .navbar #contact:hover {
   transition-duration: 0.7s;
   transition-timing-function: ease-in;
 }
+html .section-one {
+  width: 1000px;
+  height: 650px;
+  margin: 5% auto;
+  position: relative;
+}
+html .section-one .frame-one {
+  position: absolute;
+  left: 0;
+  top: 40px;
+  padding: 0;
+  margin: 0;
+}
+html .section-one .frame-two {
+  position: absolute;
+  left: 250px;
+  top: 0;
+}
+html .section-one .frame-three {
+  position: absolute;
+  left: 0;
+  top: 330px;
+}
+html .section-one .frame-four {
+  position: absolute;
+  left: 440px;
+  top: 295px;
+}
+html .section-one .frame-five {
+  position: absolute;
+  left: 560px;
+  top: 50px;
+}
+html .section-one .frame-five h1 {
+  font-weight: 800;
+  font-size: 50px;
+  color: #625772;
+}
+html .section-one .frame-five p {
+  width: 430px;
+  font-size: 18px;
+  color: rgba(98, 87, 114, 0.8);
+  margin-top: 20px;
+}
+html .sub-content {
+  width: 800px;
+  margin: 100px auto;
+}
+html .sub-content .one {
+  font-size: 35px;
+  line-height: 120%;
+  color: #625772;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+}
+html .sub-content .two {
+  margin-top: 50px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 120%;
+  letter-spacing: 0.04em;
+  color: rgba(98, 87, 114, 0.8);
+}
+html .values {
+  width: 1200px;
+  margin: 100px auto;
+  position: relative;
+}
+html .values .wrapper {
+  margin-top: 50px;
+}
+html .values .wrapper .content {
+  width: 45%;
+}
+html .values .wrapper .content h2 > b {
+  width: 50%;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: #625772;
+}
+html .values .wrapper .content h2 {
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: #625772;
+}
+html .values .wrapper .content p {
+  margin-top: 30px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 150%;
+  text-align: justify;
+  letter-spacing: 0.02em;
+  color: rgba(98, 87, 114, 0.8);
+}
+html .values .wrapper .values-list {
+  width: 48%;
+  margin-left: auto;
+}
+html .values .wrapper .values-list p {
+  width: 240px;
+  height: 100px;
+  background: #FFFFFF;
+  box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.1);
+  margin-right: 30px;
+  padding-left: 27px;
+  padding-top: 28px;
+  color: #625772;
+}
+html .values .wrapper .values-list p img {
+  margin-right: 15px;
+}
 
 /*# sourceMappingURL=main.css.map */
